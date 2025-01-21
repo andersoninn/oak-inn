@@ -1,5 +1,4 @@
 import { ArrowRightIcon } from '@radix-ui/react-icons';
-import { BsArrowRightShort } from 'react-icons/bs';
 
 export default function Services() {
   return (

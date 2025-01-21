@@ -2,8 +2,6 @@ import Modeling3D from './Modeling3D';
 // import Printing3D from './Printing3D';
 import Services from './Services';
 
-import { IoCaretDownSharp } from 'react-icons/io5';
-
 export default function ServicesMain() {
   return (
     <>
