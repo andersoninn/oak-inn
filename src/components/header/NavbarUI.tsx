@@ -32,8 +32,7 @@ export default function NavbarUI({
     <header className="bg-transparent shadow-sm text-white font-montserrat pt-[45px]">
       <section className="max-w-[1240px] md:w-[90%] mx-auto flex justify-between items-center px-4 py-4 md:px-0 h-[64px]">
         <article className="flex gap-2 items-center justify-center">
-          <Image src="/logo.png" alt="Logo" width={30} height={30} />
-          <div className="text-3xl font-bold">OAK</div>
+          <Image src="/logo.png" alt="Logo" width={130} height={130} />
         </article>
 
         {/* Menu desktop */}

@@ -11,8 +11,9 @@ export default {
       colors: {
         background: 'var(--background)',
         foreground: 'var(--foreground)',
-        bgMenu: '#242424',
-        hoverMenu: '#f5ff5b',
+        bgMenu: '#1E262B',
+        bgMenu2: '#1B2024',
+        hoverMenu: '#F5FF5B',
       },
       fontFamily: {
         montserrat: ['"Montserrat"', 'sans-serif'],

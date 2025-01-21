@@ -1,5 +1,6 @@
+import Footer from '@/components/Footer/Footer';
 import Header from '@/components/header/Header';
-import Services from '@/components/services/Services';
+
 import ServicesMain from '@/components/services/ServicesMain';
 // import HomeContacts from '@/main/HomeContacts';
 
@@ -14,6 +15,7 @@ export default function Home() {
         <article className=" w-full min-h-screen bg-gray-500">banner</article>
         {/* <HomeContacts /> */}
         <ServicesMain />
+        <Footer />
       </section>
     </>
   );
