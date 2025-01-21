@@ -2,7 +2,7 @@ import { ArrowRightIcon } from '@radix-ui/react-icons';
 
 export default function Services() {
   return (
-    <section className="max-w-[1240px] container m-auto pb-20">
+    <section className="max-w-[1240px] container m-auto pb-20 relative z-90">
       <section className="flex flex-col gap-4 mx-auto md:flex-row md:gap-0">
         {/* fist article */}
         <article className="bg-hoverMenu p-7 -mt-14 flex flex-col gap-4 justify-start items-start ">

@@ -7,7 +7,7 @@ export default function Header() {
   const [navbarColor, setNavbarColor] = useState('transparent');
 
   return (
-    <section className={`absolute top-0 w-full bg-${navbarColor}`}>
+    <section className={`absolute top-0 w-full z-10  bg-${navbarColor}`}>
       <NavbarUI setNavbarColor={setNavbarColor} />
     </section>
   );
