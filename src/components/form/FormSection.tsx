@@ -1,4 +1,4 @@
-import FormUI from './FormUI';
+// import FormUI from './FormUI';
 
 export default function Form() {
   return (
@@ -6,7 +6,7 @@ export default function Form() {
       <section className="max-w-[1240px] w-[90%] m-auto">
         <article className="bg-hoverMenu w-full h-full">
           <h2>Interessado? Entre em contato conosco agora mesmo</h2>
-          <FormUI />
+          {/* <FormUI /> */}
         </article>
       </section>
     </section>
