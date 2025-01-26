@@ -10,6 +10,9 @@ export default {
   ],
   theme: {
     extend: {
+      screens: {
+        'sm-custom': '550px',
+      },
       colors: {
         background: 'var(--background)',
         foreground: 'var(--foreground)',

@@ -1,6 +1,7 @@
 import Footer from '@/components/Footer/Footer';
 import Form from '@/components/form/FormSection';
 import Header from '@/components/header/Header';
+import Banner from '@/components/home/Banner';
 
 import ServicesMain from '@/components/services/ServicesMain';
 // import HomeContacts from '@/main/HomeContacts';
@@ -13,20 +14,7 @@ export default function Home() {
       <section className="bg-green-500 h-screen relative ">
         <Header />
         {/* <SliderMain /> */}
-        <article className="relative w-full min-h-screen z-0">
-          {/* Vídeo de fundo */}
-          <video
-            src="/movies/bannerMovie.mp4"
-            autoPlay
-            loop
-            muted
-            playsInline
-            className="w-full h-screen object-cover"
-          ></video>
-
-          {/* Película cinzenta */}
-          <div className="absolute inset-0 bg-gray-800 opacity-50"></div>
-        </article>
+        <Banner />
         {/* <HomeContacts /> */}
         <ServicesMain />
         <Form />
