@@ -2,8 +2,6 @@ import { ArrowRightIcon } from '@radix-ui/react-icons';
 import Image from 'next/image';
 import Link from 'next/link';
 
-import { IoLogoFacebook } from 'react-icons/io';
-
 export default function Banner() {
   return (
     <>
