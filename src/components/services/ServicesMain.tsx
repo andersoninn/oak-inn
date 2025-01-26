@@ -5,7 +5,7 @@ import Services from './Services';
 export default function ServicesMain() {
   return (
     <>
-      <section className=" bg-gray-400 pb-24">
+      <section className=" bg-gray-400 pb-52 z-0">
         <article className="max-w-[1240px] w-[90%] m-auto">
           <Services />
           <Modeling3D />

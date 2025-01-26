@@ -25,7 +25,7 @@ export default function FormUI() {
         placeholder="Enter your username"
         type="text"
         radius="none"
-        className="!bg-red-500"
+        className="!bg-red-500 text-blue-200"
         color={'warning'}
       />
 
