@@ -146,16 +146,17 @@ export default function ServicesCarrosel() {
           <>
             <Arrow
               left
-              onClick={(e: any) =>
-                e.stopPropagation() || instanceRef.current?.prev()
-              }
+              onClick={(e: React.MouseEvent<SVGElement>) => {
+                e.stopPropagation();
+                instanceRef.current?.prev();
+              }}
               disabled={currentSlide === 0}
             />
-
             <Arrow
-              onClick={(e: any) =>
-                e.stopPropagation() || instanceRef.current?.next()
-              }
+              onClick={(e: React.MouseEvent<SVGElement>) => {
+                e.stopPropagation();
+                instanceRef.current?.next();
+              }}
               disabled={
                 currentSlide ===
                 instanceRef.current.track.details.slides.length - 1
@@ -170,7 +171,7 @@ export default function ServicesCarrosel() {
   function Arrow(props: {
     disabled: boolean;
     left?: boolean;
-    onClick: (e: any) => void;
+    onClick: (e: React.MouseEvent<SVGElement>) => void;
   }) {
     const disabled = props.disabled ? ' arrow--disabled' : '';
     return (
