@@ -42,7 +42,7 @@ export default function NavbarUI({
               <NavigationMenu.Item key={item.name}>
                 <NavigationMenu.Link
                   href={item.link}
-                  className="hover:text-hoverMenu transition uppercase font-bold"
+                  className="hover:text-hoverMenu transition uppercase font-semibold"
                 >
                   {item.name}
                 </NavigationMenu.Link>
