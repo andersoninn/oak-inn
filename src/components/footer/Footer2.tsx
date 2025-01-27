@@ -2,7 +2,7 @@ import { ArrowRightIcon, MobileIcon } from '@radix-ui/react-icons';
 import Image from 'next/image';
 import Link from 'next/link';
 
-export default function Footer() {
+export default function Footer2() {
   return (
     <section className="pt-20 bg-bgMenu text-white z-0">
       <section className="max-w-[1240px] w-[90%] m-auto flex flex-col md:flex-row gap-8 md:gap-12">
