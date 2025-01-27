@@ -1,4 +1,4 @@
-import FeaturedWorks from './FeaturedWorks';
+// import FeaturedWorks from './FeaturedWorks';
 import Modeling3D from './Modeling3D';
 import Partners from './Partners';
 // import Printing3D from './Printing3D';
