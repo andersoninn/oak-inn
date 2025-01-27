@@ -1,4 +1,4 @@
-// import Footer from '@/components/footer/Footer';
+import Footer from '@/components/footer/Footer';
 import Form from '@/components/form/FormSection';
 import Header from '@/components/header/Header';
 import Banner from '@/components/home/Banner';
@@ -17,7 +17,7 @@ export default function Home() {
         <ServicesMain />
         <ServicesCarrosel />
         <Form />
-        {/* <Footer /> */}
+        <Footer />
       </section>
     </>
   );
