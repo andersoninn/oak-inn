@@ -1,11 +1,14 @@
+import FeaturedWorks from './FeaturedWorks';
 import Modeling3D from './Modeling3D';
+import Partners from './Partners';
 // import Printing3D from './Printing3D';
 import Services from './Services';
+import ServicesCarrosel from './ServicesCarrosel';
 
 export default function ServicesMain() {
   return (
     <>
-      <section className=" bg-gray-400 pb-52 z-0">
+      <section className=" bg-gray-400 z-0">
         <article className="max-w-[1240px] w-[90%] m-auto">
           <Services />
           <Modeling3D />
@@ -30,6 +33,14 @@ export default function ServicesMain() {
             </aside>
           </article>
         </section>
+        <section className="md:min-w-screen overflow-hidden md:overflow-visible pt-52">
+          <ServicesCarrosel />
+        </section>
+        <section className="h-[70px] w-screen bg-white" />
+        {/* <article className="max-w-[1240px] w-[90%] m-auto">
+          <FeaturedWorks />
+        </article> */}
+        <Partners />
       </section>
     </>
   );

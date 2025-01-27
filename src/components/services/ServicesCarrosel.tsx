@@ -112,10 +112,14 @@ export default function ServicesCarrosel() {
             <article
               className={`keen-slider__slide number-slide${i} ${
                 i === 0 ? 'lg:-ml-8' : ''
-              } relative p-2 flex flex-col gap-4 !bg-hoverMenu max-w-[375px] !overflow-visible`}
+              } relative p-2 flex flex-col gap-4 !bg-hoverMenu max-w-[375px] !overflow-visible ${
+                i === slides.length - 1 ? 'z-99' : 'z-30'
+              }`}
               key={i}
             >
-              <article className="bg-hoverMenu text-bgMenu2 py-2 px-10 text-5xl  font-semibold shadow-md absolute -top-9 -left-8 overflow-visible">
+              <article className={`	bg-hoverMenu text-bgMenu2 py-2 px-10 text-5xl  font-semibold shadow-md absolute -top-9 -left-8 overflow-visible ${
+                i === slides.length - 1 ? 'z-99' : 'z-30'
+              }`}>
                 {e.flag}
               </article>
               <Image
@@ -126,10 +130,10 @@ export default function ServicesCarrosel() {
                 className="max-w-full w-[375px]"
               />
               <article
-                className={`p-2 w-[375px] max-w-full h-[328px] max-h-[328px] flex flex-col gap-6 items-start ${
+                className={`p-8 w-[375px] max-w-full h-[328px] max-h-[328px] flex flex-col gap-6 items-start ${
                   i % 2 === 0
-                    ? 'bg-bgMenu2 text-white'
-                    : 'bg-hoverMenu text-bgMenu2'
+                    ? 'bg-hoverMenu text-bgMenu2'
+                    : 'bg-bgMenu2 text-white'
                 }`}
               >
                 <h3 className="text-4xl font-semibold">{e.title}</h3>

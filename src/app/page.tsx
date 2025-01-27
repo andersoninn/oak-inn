@@ -15,7 +15,7 @@ export default function Home() {
         <Banner />
         {/* <HomeContacts /> */}
         <ServicesMain />
-        <ServicesCarrosel />
+        {/* <ServicesCarrosel /> */}
         <Form />
         <Footer />
       </section>
