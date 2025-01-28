@@ -79,7 +79,7 @@ export default function ServicesCarrosel() {
   const [sliderRef, instanceRef] = useKeenSlider<HTMLDivElement>({
     slides: {
       perView: 5,
-      spacing: 0,
+      spacing: -1,
     },
     breakpoints: {
       '(max-width: 1024px)': {
@@ -93,8 +93,8 @@ export default function ServicesCarrosel() {
         },
       },
     },
-    initial: 1,
-    loop: true,
+    initial: 2,
+    // loop: true,
 
     slideChanged(slider) {
       setCurrentSlide(slider.track.details.rel);
@@ -111,15 +111,17 @@ export default function ServicesCarrosel() {
           {slides.map((e, i) => (
             <article
               className={`keen-slider__slide number-slide${i} ${
-                i === 0 ? 'lg:-ml-8' : ''
+                i === 0 ? '-ml-4 md:-ml-0' : ''
               } relative p-2 flex flex-col gap-4 !bg-hoverMenu max-w-[375px] !overflow-visible ${
                 i === slides.length - 1 ? 'z-99' : 'z-30'
               }`}
               key={i}
             >
-              <article className={`	bg-hoverMenu text-bgMenu2 py-2 px-10 text-5xl  font-semibold shadow-md absolute -top-9 -left-8 overflow-visible ${
-                i === slides.length - 1 ? 'z-99' : 'z-30'
-              }`}>
+              <article
+                className={`hidden md:block	bg-hoverMenu text-bgMenu2 py-2 px-10 text-5xl  font-semibold shadow-md absolute -top-9 -left-8 overflow-visible ${
+                  i === slides.length - 1 ? 'z-99' : 'z-30'
+                }`}
+              >
                 {e.flag}
               </article>
               <Image

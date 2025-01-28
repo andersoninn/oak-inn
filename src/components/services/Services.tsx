@@ -5,11 +5,11 @@ export default function Services() {
     <section className="max-w-[1240px] container m-auto pb-20 relative z-90">
       <section className="flex flex-col gap-4 mx-auto md:flex-row md:gap-0">
         {/* fist article */}
-        <article className="bg-hoverMenu p-7 -mt-14 flex flex-col gap-4 justify-start items-start ">
-          <h2 className="font-montserrat font-bold text-2xl">
+        <article className="bg-hoverMenu p-7 -mt-14 flex flex-col gap-4 justify-between items-start  md:h-[416px] md:p-20 md:w-1/3">
+          <h2 className="font-montserrat font-bold text-2xl md:text-4xl">
             Pós-produção a profissional
           </h2>
-          <p className="font-light">
+          <p className="font-light md:text-lg">
             A fotografia aérea é uma nova tendência dos últimos anos que permite
             aumentar a critividade...
           </p>
@@ -19,11 +19,11 @@ export default function Services() {
           </button>
         </article>
         {/* second article */}
-        <article className="bg-bgMenu text-white p-7 md:-mt-14 flex flex-col gap-4 justify-start items-start">
-          <h2 className="font-montserrat font-bold text-2xl">
+        <article className="bg-bgMenu text-white p-7 md:-mt-14 flex flex-col gap-4 justify-between items-start  md:h-[416px] md:p-20 md:w-1/3">
+          <h2 className="font-montserrat font-bold text-2xl md:text-4xl">
             Videografia e propaganda 4k
           </h2>
-          <p className="font-light">
+          <p className="font-light md:text-lg">
             Filmar com drones é uma ótima escolha tanto em cenários artificiais
             quanto naturais. Se...
           </p>
@@ -33,11 +33,11 @@ export default function Services() {
           </button>
         </article>{' '}
         {/* third article */}
-        <article className="bg-hoverMenu p-7 md:-mt-14 flex flex-col gap-4 justify-start items-start">
-          <h2 className="font-montserrat font-bold text-2xl">
+        <article className="bg-hoverMenu p-7 md:-mt-14 flex flex-col gap-4 justify-between items-start  md:h-[416px] md:p-20 md:w-1/3">
+          <h2 className="font-montserrat font-bold text-2xl md:text-4xl">
             Pós-produção profissional
           </h2>
-          <p className="font-light">
+          <p className="font-light md:text-lg">
             O processo de filmagem é apenas metade do sucesso futuro do seu
             vídeo. Nós fornecemos pós...
           </p>
