@@ -13,7 +13,7 @@ export default function ServicesCarrosel() {
       image: '/slider/image1.jpg',
       title: 'Pós-produção profissional',
       description:
-        'A fotografia aérea é uma nova tendência dos últimos anos que permite aumentar a ...',
+        'A fotografia aérea é uma nova tendência dos últimos anos que permite aumentar a criatividade ...',
       callToAction: 'Ler mais',
     },
     {
@@ -29,7 +29,7 @@ export default function ServicesCarrosel() {
       image: '/slider/image1.jpg',
       title: 'Pós-produção profissional',
       description:
-        'O processo de filmagem é apenas metade do sucesso futuro do seu vídeo. Nos ...',
+        'O processo de filmagem é apenas metade do sucesso futuro do seu vídeo. Nos fornecemos pós...',
       callToAction: 'Ler mais',
     },
     {
@@ -45,7 +45,7 @@ export default function ServicesCarrosel() {
       image: '/slider/image1.jpg',
       title: 'Edição de áudio profissional',
       description:
-        'A edição de áudio de alta qualidade é essencial para melhorar a experiência do ...',
+        'A edição de áudio de alta qualidade é essencial para melhorar a experiência do ouvinte ...',
       callToAction: 'Ler mais',
     },
     {
@@ -61,7 +61,7 @@ export default function ServicesCarrosel() {
       image: '/slider/image1.jpg',
       title: 'Consultoria criativa',
       description:
-        'Nosso time de consultores criativos pode ajudá-lo a criar campanhas incríveis e ...',
+        'Nosso time de consultores criativos pode ajudá-lo a criar campanhas incríveis e tornar ...',
       callToAction: 'Ler mais',
     },
     {
@@ -94,6 +94,7 @@ export default function ServicesCarrosel() {
       },
     },
     initial: 2,
+
     // loop: true,
 
     slideChanged(slider) {
@@ -113,12 +114,12 @@ export default function ServicesCarrosel() {
               className={`keen-slider__slide number-slide${i} ${
                 i === 0 ? '-ml-4 md:-ml-0' : ''
               } relative p-2 flex flex-col gap-4 !bg-hoverMenu max-w-[375px] !overflow-visible ${
-                i === slides.length - 1 ? 'z-99' : 'z-30'
+                i === slides.length - 1 ? 'z-30' : 'z-0'
               }`}
               key={i}
             >
               <article
-                className={`hidden md:block	bg-hoverMenu text-bgMenu2 py-2 px-10 text-5xl  font-semibold shadow-md absolute -top-9 -left-8 overflow-visible ${
+                className={`bg-hoverMenu text-bgMenu2 py-2 px-10 text-5xl  font-semibold shadow-md absolute -top-9 -left-8 overflow-visible ${
                   i === slides.length - 1 ? 'z-99' : 'z-30'
                 }`}
               >
@@ -132,14 +133,16 @@ export default function ServicesCarrosel() {
                 className="max-w-full w-[375px]"
               />
               <article
-                className={`p-8 w-[375px] max-w-full h-[328px] max-h-[328px] flex flex-col gap-6 items-start ${
+                className={`p-8 w-[375px] max-w-full h-full flex flex-col gap-6 items-start justify-between ${
                   i % 2 === 0
                     ? 'bg-hoverMenu text-bgMenu2'
                     : 'bg-bgMenu2 text-white'
                 }`}
               >
-                <h3 className="text-4xl font-semibold">{e.title}</h3>
-                <p className="text-lg font-light">{e.description}</p>
+                <h3 className="text-4xl font-semibold min-h-[120px]">
+                  {e.title}
+                </h3>
+                <p className="text-lg font-light min-h-[112px]">{e.description}</p>
                 <button className="uppercase font-semibold flex gap-2 items-center justify-center hover:text-gray-400 text-sm">
                   {e.callToAction}{' '}
                   <ArrowRightIcon className="w-3 h-3 font-semibold" />

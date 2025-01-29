@@ -5,12 +5,12 @@ import Link from 'next/link';
 export default function Banner() {
   return (
     <>
-      <article className="relative w-full min-h-screen z-0">
+      <article className="relative w-full h-screen min-h-[600px] z-0">
         <video
           src="/movies/bannerMovie2.mp4"
           autoPlay
-          loop
           muted
+          loop
           playsInline
           className="absolute z-10  w-full h-full object-cover"
         ></video>
