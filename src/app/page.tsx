@@ -26,7 +26,7 @@ export default function Home() {
         {/* <section className="overflow-x-hidden !overflow-visible z-30">
           <ServicesCarrosel />
         </section> */}
-        <section className="h-[50px]  bg-white " />
+        <section className="h-[50px] bg-white" />
         <article className="bg-works overflow-hidden">
           <FeaturedWorks />
         </article>
