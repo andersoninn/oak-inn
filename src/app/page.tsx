@@ -26,8 +26,9 @@ export default function Home() {
         {/* <section className="overflow-x-hidden !overflow-visible z-30">
           <ServicesCarrosel />
         </section> */}
-        <section className="h-[50px] bg-white" />
+       
         <article className="bg-works overflow-hidden">
+        <section className="h-[50px] bg-white" />
           <FeaturedWorks />
         </article>
         <section className="bg-gray-100 py-12">
