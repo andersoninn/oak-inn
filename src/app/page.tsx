@@ -3,7 +3,7 @@ import Form from '@/components/form/FormSection';
 import Header from '@/components/header/Header';
 import Banner from '@/components/home/Banner';
 import FeaturedWorks from '@/components/services/FeaturedWorks';
-import Partners from '@/components/services/Partners';
+import Partners from '@/components/partners/Partners';
 import Print3D from '@/components/services/Print3D';
 import ServicesCarrosel from '@/components/services/ServicesCarrosel';
 // import ServicesCarrosel from '@/components/services/ServicesCarrosel';
