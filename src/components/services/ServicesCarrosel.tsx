@@ -131,6 +131,7 @@ export default function ServicesCarrosel() {
             onMouseEnter={() => handleMouseEnter(i)}
             onMouseLeave={() => handleMouseLeave(i)}
           >
+            {hoveredIndex}
             <video
               ref={(el: HTMLVideoElement | null) => {
                 videoRefs.current[i] = el;
