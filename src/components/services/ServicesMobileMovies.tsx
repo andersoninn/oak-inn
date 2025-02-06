@@ -1,5 +1,6 @@
 'use client';
 
+import { ArrowRightIcon } from '@radix-ui/react-icons';
 import React, { useEffect, useRef, useState } from 'react';
 
 export default function ServicesMobileMovies() {
@@ -169,7 +170,7 @@ export default function ServicesMobileMovies() {
             />
             <div
               className={`absolute inset-0 opacity-80 z-20 ${
-                activeIndex === i ? 'bg-gray-950/95' : 'bg-gray-900'
+                activeIndex === i ? 'bg-gray-950/95' : 'bg-gray-950'
               } `}
             />
 
@@ -178,7 +179,8 @@ export default function ServicesMobileMovies() {
               <h3 className="text-2xl md:text-4xl font-semibold">{e.title}</h3>
               <p className="text-lg font-light min-h-16">{e.description}</p>
               <button className="uppercase font-semibold flex gap-2 items-center justify-center hover:text-gray-400 text-sm">
-                {e.callToAction}
+                {e.callToAction}{' '}
+                <ArrowRightIcon className="w-3 h-3 font-semibold" />
               </button>
             </article>
           </article>
