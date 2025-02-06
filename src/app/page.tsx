@@ -5,6 +5,7 @@ import Banner from '@/components/home/Banner';
 import FeaturedWorks from '@/components/services/FeaturedWorks';
 import Partners from '@/components/services/Partners';
 import Print3D from '@/components/services/Print3D';
+import ServicesCarrosel from '@/components/services/ServicesCarrosel';
 // import ServicesCarrosel from '@/components/services/ServicesCarrosel';
 import ServicesImages from '@/components/services/ServicesImages';
 
@@ -23,12 +24,12 @@ export default function Home() {
         <section className="relative z-0">
           <ServicesImages />
         </section>
-        {/* <section className="overflow-x-hidden !overflow-visible z-30">
+        <section className="overflow-x-hidden !overflow-visible z-30">
           <ServicesCarrosel />
-        </section> */}
-       
+        </section>
+
         <article className="bg-works overflow-hidden">
-        <section className="h-[50px] bg-white" />
+          <section className="h-[50px] bg-white" />
           <FeaturedWorks />
         </article>
         <section className="bg-gray-100 py-12">
