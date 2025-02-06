@@ -169,7 +169,7 @@ export default function ServicesMobileMovies() {
             />
             <div
               className={`absolute inset-0 opacity-80 z-20 ${
-                activeIndex === i ? 'bg-gray-800' : 'bg-gray-900'
+                activeIndex === i ? 'bg-gray-950/95' : 'bg-gray-900'
               } `}
             />
 
