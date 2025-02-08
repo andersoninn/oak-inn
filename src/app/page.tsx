@@ -1,3 +1,4 @@
+import FloatingButton from '@/components/FloatingButton';
 import Footer2 from '@/components/footer/Footer2';
 import Form from '@/components/form/FormSection';
 import Header from '@/components/header/Header';
@@ -6,11 +7,8 @@ import FeaturedWorks from '@/components/services/FeaturedWorks';
 import Partners from '@/components/partners/Partners';
 import Print3D from '@/components/services/Print3D';
 import ServicesCarrosel from '@/components/services/ServicesCarrosel';
-// import ServicesCarrosel from '@/components/services/ServicesCarrosel';
 import ServicesImages from '@/components/services/ServicesImages';
-
 import ServicesMain from '@/components/services/ServicesMain';
-// import HomeContacts from '@/main/HomeContacts';
 
 export default function Home() {
   return (
@@ -18,7 +16,6 @@ export default function Home() {
       <section className="min-h-screen relative">
         <Header />
         <Banner />
-        {/* <HomeContacts /> */}
         <ServicesMain />
         <Print3D />
         <section className="relative z-0">
@@ -27,7 +24,6 @@ export default function Home() {
         <section className="overflow-x-hidden !overflow-visible z-30">
           <ServicesCarrosel />
         </section>
-
         <article className="bg-works overflow-hidden">
           <section className="h-[50px] bg-white" />
           <FeaturedWorks />
@@ -40,6 +36,9 @@ export default function Home() {
         </section>
         <Footer2 />
       </section>
+
+      {/* Adicionando o botão flutuante */}
+      <FloatingButton />
     </>
   );
 }
