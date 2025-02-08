@@ -7,7 +7,7 @@ export default function Print3D() {
         </article>
         <article className="bg-print3d-right  md:w-1/2 h-[380px] md:h-[420px] relative">
           <aside className="w-full h-[100px] bg-hoverMenu absolute -bottom-8 uppercase flex justify-center items-center gap-2 font-bold text-2xl z-30">
-            impressão 3D{' '}
+            <h2>impressão 3D </h2>
             <svg
               width="35"
               height="35"

@@ -5,7 +5,9 @@ export default function FeaturedWorks() {
     <>
       <section className="m-auto relative">
         <aside className="w-full h-[100px] bg-hoverMenu absolute -top-8 left-12 md:left-1/3 lg:left-1/2 flex justify-start pl-12 items-center gap-2 font-bold text-2xl lg:text-4xl">
-          Trabalhos <span className="font-normal">em destaque</span>
+          <h2>
+            Trabalhos <span className="font-normal">em destaque</span>
+          </h2>
         </aside>
         <section className="h-[200px] md:h-[300px]" />
       </section>

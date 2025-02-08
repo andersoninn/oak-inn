@@ -26,10 +26,10 @@ export default function Banner() {
                 <span className="font-light">em</span>
                 <span className="text-hoverMenu ml-2">fotografia</span>
               </h2>
-              <h2 className="md:text-xl">
+              <p className="md:text-xl">
                 Fotografia aérea externa e arte em vídeo para <br /> estilo de
                 vida, ação e comércio
-              </h2>
+              </p>
               <button className="max-w-[237px] bg-hoverMenu text-black uppercase font-semibold flex gap-2 items-center justify-center hover:text-gray-400 text-sm p-4">
                 <span>Solicite um orçamento</span>
                 <ArrowRightIcon className="w-3 h-3 font-semibold" />

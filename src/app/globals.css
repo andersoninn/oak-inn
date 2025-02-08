@@ -8,6 +8,12 @@ body {
   font-family: roboto, system-ui, sans-serif;
 }
 
+h1,
+h2,
+h3 {
+  font-family: 'Montserrat', sans-serif;
+}
+
 .bg-modeling3d {
   background-image: url('/modeling3D.jpg');
   background-size: cover;
