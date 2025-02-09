@@ -6,13 +6,6 @@ import { useState } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 
-/*************  ✨ Codeium Command ⭐  *************/
-/**
- * @function NavbarUI
- * @description Componente de navegação do header, com menu para desktop e mobile.
- * @returns {JSX.Element} Um componente header com menu.
- */
-/******  a3f7e17a-39cf-48a0-a1d7-66ba5ce49517  *******/
 export default function NavbarUI() {
   const [menuOpen, setMenuOpen] = useState(false);
 

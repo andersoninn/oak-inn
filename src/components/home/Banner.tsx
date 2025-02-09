@@ -40,7 +40,7 @@ export default function Banner() {
               <Link
                 href="#home"
                 target="_self"
-                className="bg-hoverMenu text-black flex items-center justify-center gap-4 w-8 h-8"
+                className="bg-hoverMenu text-black flex items-center justify-center gap-4 w-8 h-8 hover:bg-hoverMenu/90"
               >
                 <Image
                   src={'/homeIcons/facebook.png'}
@@ -51,7 +51,7 @@ export default function Banner() {
               </Link>
               <Link
                 href="https://www.instagram.com/tulio.oak/"
-                className="bg-hoverMenu text-black flex items-center justify-center gap-4 w-8 h-8"
+                className="bg-hoverMenu text-black flex items-center justify-center gap-4 w-8 h-8 hover:bg-hoverMenu/90"
                 target="_blank"
               >
                 <Image
@@ -64,7 +64,7 @@ export default function Banner() {
               <Link
                 href="#home"
                 target="_self"
-                className="bg-hoverMenu text-black flex items-center justify-center gap-4 w-8 h-8"
+                className="bg-hoverMenu text-black flex items-center justify-center gap-4 w-8 h-8 hover:bg-hoverMenu/90"
               >
                 <Image
                   src={'/homeIcons/twitter.png'}
@@ -76,7 +76,7 @@ export default function Banner() {
               <Link
                 href="#home"
                 target="_self"
-                className="bg-hoverMenu text-black flex items-center justify-center gap-4 w-8 h-8"
+                className="bg-hoverMenu text-black flex items-center justify-center gap-4 w-8 h-8 hover:bg-hoverMenu/90"
               >
                 <Image
                   src={'/homeIcons/youtube.png'}
@@ -87,9 +87,6 @@ export default function Banner() {
               </Link>
             </article>
           </section>
-          {/* <section className="hidden absolute z-20 bottom-10 md:flex justify-center items-center bg-black/60 rounded-full p-1 w-[90%] md:max-w-[976px]">
-              
-              </section> */}
         </section>
       </article>
     </>
