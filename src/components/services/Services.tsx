@@ -19,7 +19,10 @@ export default function Services() {
           </button>
         </article>
         {/* second article */}
-        <article className="bg-bgMenu text-white p-7 flex flex-col gap-4 justify-between items-start  md:min-h-[365px] lg:min-h-[416px] md:p-10 md:w-1/3 lg:p-20 ">
+        <article
+          className="bg-bgMenu text-white p-7 flex flex-col gap-4 justify-between items-start  md:min-h-[365px] lg:min-h-[416px] md:p-10 md:w-1/3 lg:p-20"
+          id="services"
+        >
           <h2 className="font-montserrat font-bold text-2xl lg:text-4xl">
             Videografia e propaganda 4k
           </h2>

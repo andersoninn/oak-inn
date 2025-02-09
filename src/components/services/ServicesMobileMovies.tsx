@@ -175,7 +175,7 @@ export default function ServicesMobileMovies() {
             />
 
             <article className="p-8 w-full max-w-full h-full flex flex-col items-start justify-end gap-6 absolute top-1/2 transform -translate-y-1/2 text-white z-40">
-              <div className="hidden md:block bg-white/50 h-1 rounded-sm w-3/4" />
+              {/* <div className="hidden md:block bg-white/50 h-1 rounded-sm w-3/4" /> */}
               <h3 className="text-2xl md:text-4xl font-semibold">{e.title}</h3>
               <p className="text-lg font-light min-h-16">{e.description}</p>
               <button className="uppercase font-semibold flex gap-2 items-center justify-center hover:text-gray-400 text-sm">

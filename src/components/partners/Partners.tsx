@@ -4,7 +4,8 @@ import React from 'react';
 export default function Partners() {
   const partners = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11];
   return (
-    <section className="max-w-[1240px] w-[90%] m-auto">
+    <section className="max-w-[1240px] w-[90%] m-auto relative">
+      <div className="absolute -top-52" id="clients" />
       <section className="w-full flex flex-row flex-wrap ">
         {partners.map((item, index) => (
           <section

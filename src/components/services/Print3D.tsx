@@ -1,7 +1,7 @@
 export default function Print3D() {
   return (
     <>
-      <section className="flex flex-col md:flex-row">
+      <section className="flex flex-col md:flex-row" id="3d">
         <article className="bg-print3d-left md:w-1/2 h-72 md:h-[380px] relative">
           <aside className="w-full h-4 bg-hoverMenu absolute bottom-0" />
         </article>

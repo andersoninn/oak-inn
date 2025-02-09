@@ -31,23 +31,23 @@ export default function FormUI() {
     >
       <Input
         isRequired
-        errorMessage="Please enter a valid username"
+        errorMessage="Digite um nome válido"
         labelPlacement="outside"
         name="Meu nome é"
-        placeholder="Enter your username"
+        placeholder="Digite seu nome"
         type="text"
         radius="none"
-        className="!bg-red-500 text-blue-200"
+        className=" text-blue-200"
         color={'default'}
         size={isSmallScreen ? 'md' : 'lg'}
       />
 
       <Input
         isRequired
-        errorMessage="Please enter a valid email"
+        errorMessage="Digite um e-mail válido"
         labelPlacement="outside"
         name="Meu e-mail"
-        placeholder="Enter your email"
+        placeholder="Digite seu e-mail"
         type="email"
         radius="none"
         color={'default'}
@@ -66,6 +66,7 @@ export default function FormUI() {
           type="submit"
           className="bg-bgMenu text-white uppercase text-xs p-4 mt-4"
           radius="none"
+          disabled={true}
         >
           Enviar mensagem
         </Button>

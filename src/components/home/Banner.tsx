@@ -5,7 +5,7 @@ import Link from 'next/link';
 export default function Banner() {
   return (
     <>
-      <article className="relative w-full h-screen min-h-[600px] z-0">
+      <article className="relative w-full h-screen min-h-[600px] z-0" id="home">
         <video
           src="/movies/bannerMovie2.mp4"
           autoPlay
@@ -30,15 +30,16 @@ export default function Banner() {
                 Fotografia aérea externa e arte em vídeo para <br /> estilo de
                 vida, ação e comércio
               </p>
-              <button className="max-w-[237px] bg-hoverMenu text-black uppercase font-semibold flex gap-2 items-center justify-center hover:text-gray-400 text-sm p-4">
+              <button className="max-w-[237px] bg-hoverMenu text-black uppercase font-semibold flex gap-2 items-center justify-center hover:bg-hoverMenu/90 text-sm p-4">
                 <span>Solicite um orçamento</span>
+
                 <ArrowRightIcon className="w-3 h-3 font-semibold" />
               </button>
             </article>
             <article className="hidden flex-col gap-4 sm-custom:flex">
               <Link
-                href="#"
-                target="_blank"
+                href="#home"
+                target="_self"
                 className="bg-hoverMenu text-black flex items-center justify-center gap-4 w-8 h-8"
               >
                 <Image
@@ -49,8 +50,9 @@ export default function Banner() {
                 />
               </Link>
               <Link
-                href="#"
+                href="https://www.instagram.com/tulio.oak/"
                 className="bg-hoverMenu text-black flex items-center justify-center gap-4 w-8 h-8"
+                target="_blank"
               >
                 <Image
                   src={'/homeIcons/instagram.png'}
@@ -60,8 +62,8 @@ export default function Banner() {
                 />
               </Link>
               <Link
-                href="#"
-                target="_blank"
+                href="#home"
+                target="_self"
                 className="bg-hoverMenu text-black flex items-center justify-center gap-4 w-8 h-8"
               >
                 <Image
@@ -72,8 +74,8 @@ export default function Banner() {
                 />
               </Link>
               <Link
-                href="#"
-                target="_blank"
+                href="#home"
+                target="_self"
                 className="bg-hoverMenu text-black flex items-center justify-center gap-4 w-8 h-8"
               >
                 <Image

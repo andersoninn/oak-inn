@@ -12,7 +12,7 @@ export default function Modeling3D() {
         optio eius delectus consequuntur repellendus consequatur exercitationem
         esse nam.
       </p>
-      <button className="bg-hoverMenu p-4 w-44 md:w-[237px] uppercase font-semibold flex gap-2 items-center justify-center text-black">
+      <button className="bg-hoverMenu p-4 w-44 md:w-[237px] uppercase font-semibold flex gap-2 items-center justify-center text-black hover:bg-hoverMenu/90">
         {' '}
         Saiba mais <ArrowRightIcon className="w-3 h-3 font-semibold" />
       </button>
